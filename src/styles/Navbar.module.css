@@ -1,0 +1,39 @@
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems {
+    list-style: none;
+    display: flex;
+    font-weight: 600;
+}
+
+.navItems li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.navItems li a:hover {
+    color: #f4ce14;
+}
+
+.logoDiv {
+    margin: auto 0;
+}
+
+.logoDiv img {
+    width: 200px;
+    height: 80px;
+}

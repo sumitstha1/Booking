@@ -1,0 +1,143 @@
+.heroSection {
+    background-color: #495e57;
+    margin-top: 1rem;
+    height: 406px;
+    display: flex;
+    justify-content: center;
+}
+
+.heroContent {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroLeft {
+    width: 50%;
+}
+
+.heroLeft h1 {
+    font-size: 56px;
+    font-weight: 400;
+    color: #f4ce14;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heroLeft h2 {
+    font-size: 32px;
+    font-family: 'Markazi Text', serif;
+    font-weight: 100;
+}
+
+.heroLeft p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.heroButton {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #f4ce14;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    border: 1px solid #f4ce14;
+    color: #333333;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease-in;
+}
+
+.heroButton:hover {
+    color: #f4ce14;
+    background-color: transparent;
+}
+
+.heroLeft h2,
+.heroLeft p {
+    color: #edefee;
+}
+
+.heroRight {
+    width: 50%;
+    height: 406px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.heroImage {
+    width: 375px;
+    height: 324px;
+    transition: all 0.2s linear;
+}
+
+.heroImage:hover {
+    transform: translateY(-1rem);
+}
+
+/* Testimonial Section */
+
+.testimonialSection {
+    height: 590px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialContainer {
+    width: 60%;
+}
+
+.testimonialContainer h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Markazi Text', serif;
+}
+
+.testimonialList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonialCard {
+    height: 175px;
+    width: 200px;
+    background-color: #fff;
+    margin: 4rem 0;
+    padding: 1rem 0.75rem;
+}
+
+.testimonialCard p {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    padding: 2rem 0;
+}
+
+.rating {
+    color: #f4ce14;
+    font-size: 24px;
+}
+
+.nameImage {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.nameImage h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.nameImage img {
+    width: 46px;
+    height: 46px;
+}

@@ -1,0 +1,63 @@
+.littleSection {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.littleLemon {
+    width: 373px;
+    height: 468px;
+}
+
+.littleLemon h2 {
+    font-size: 64px;
+    font-family: 'Markazi Text', serif;
+    color: #f4ce14;
+}
+
+.littleLemon h3 {
+    font-size: 40px;
+    font-family: 'Markazi Text', serif;
+    color: #333333;
+}
+
+.littleLemon p {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-top: 5rem;
+}
+
+.LemonImg {
+    width: 447px;
+    height: 447px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.LemonImg img {
+    /* position: absolute; */
+    width: 270px;
+    height: 336px;
+}
+
+.upperImg,
+.lowerImg {
+    position: relative;
+}
+
+.upperImg {
+    z-index: 1;
+    left: 5rem;
+}
+
+.lowerImg {
+    bottom: 10rem;
+    right: 5rem;
+}

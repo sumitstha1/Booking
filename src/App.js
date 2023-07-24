@@ -1,10 +1,22 @@
-import './App.css';
+import '../src/styles/App.css';
+import Navbar from '../src/Navbar';
+import HeroSection from './HeroSection';
+import SpecialMenu from './SpecialMenu';
+import Testimonials from './Testimonials';
+import LittleLemon from './LittleLemon';
 
 function App() {
   return (
-    <div className="App">
-      This is a home page
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <SpecialMenu />
+        <Testimonials />
+        <LittleLemon />
+      </main>
+      <footer></footer>
+    </>
   );
 }
 
