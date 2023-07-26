@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../src/styles/SpecialMenu.module.css'
+import styles from '../styles/SpecialMenu.module.css'
 import { MdDeliveryDining } from 'react-icons/md'
 
 const SpecialMenu = () => {

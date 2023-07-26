@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles/LittleLemon.module.css'
+import styles from '../styles/LittleLemon.module.css'
 
 const LittleLemon = () => {
     return (
